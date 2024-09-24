@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const res = await axios.get('https://shopping-backend-3itn.onrender.com/api/products');
+      const res = await axios.get('https://shopping-backend-1-g5x1.onrender.com/api/products');
       setProducts(res.data);
     };
     fetchProducts();
